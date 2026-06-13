@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Mangosteen illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#15331f"/>
+      <stop offset="100%" stop-color="#09180f"/>
+    </linearGradient>
+    <linearGradient id="fruit" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff7d9b"/>
+      <stop offset="100%" stop-color="#a01445"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="40" fill="url(#bg)"/>
+  <circle cx="180" cy="108" r="55" fill="#a3ef96" opacity="0.10"/>
+  <circle cx="640" cy="100" r="75" fill="#e0ffc4" opacity="0.10"/>
+  <path d="M470 110C545 72 617 86 667 137" fill="none" stroke="#d4ffbe" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <g transform="translate(110 90)">
+    <ellipse cx="300" cy="260" rx="175" ry="140" fill="url(#fruit)"/>
+    <ellipse cx="300" cy="260" rx="175" ry="140" fill="#fff" opacity="0.08"/>
+    <path d="M220 128C255 98 302 86 350 96C320 139 276 175 233 196C215 176 204 153 220 128Z" fill="#fff" opacity="0.18"/>
+    <path d="M286 130C347 145 397 206 407 272C359 236 304 209 248 205C259 178 275 152 286 130Z" fill="#fff" opacity="0.12"/>
+    <path d="M242 190C292 170 354 170 407 192" fill="none" stroke="#e1a7bf" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+    <path d="M197 248C247 225 314 220 382 244" fill="none" stroke="#8d2147" stroke-width="9" stroke-linecap="round" opacity="0.35"/>
+    <path d="M242 118C216 170 208 231 218 294" fill="none" stroke="#8d2147" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+    <path d="M355 128C381 178 393 243 383 310" fill="none" stroke="#8d2147" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  </g>
+  <text x="130" y="450" fill="#effff4" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Mangosteen • Premium Tropical</text>
+</svg>

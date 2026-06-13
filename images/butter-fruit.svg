@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Butter fruit illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#193924"/>
+      <stop offset="100%" stop-color="#081c12"/>
+    </linearGradient>
+    <linearGradient id="fruit" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5ead2"/>
+      <stop offset="100%" stop-color="#d7bf84"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="40" fill="url(#bg)"/>
+  <circle cx="160" cy="110" r="54" fill="#b9f2ad" opacity="0.12"/>
+  <circle cx="652" cy="102" r="70" fill="#e0ffc5" opacity="0.10"/>
+  <path d="M475 105C535 70 607 82 656 132" fill="none" stroke="#d3ffc6" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <g transform="translate(120 100)">
+    <ellipse cx="290" cy="255" rx="165" ry="132" fill="url(#fruit)"/>
+    <ellipse cx="290" cy="255" rx="165" ry="132" fill="#fff" opacity="0.10"/>
+    <path d="M230 88C191 128 171 187 168 247C210 211 260 170 300 147C278 114 245 96 230 88Z" fill="#8b6b3f" opacity="0.25"/>
+    <path d="M233 125C296 145 348 198 367 256C322 233 259 205 206 197C208 174 218 145 233 125Z" fill="#fff" opacity="0.18"/>
+    <path d="M228 111C291 132 349 188 367 251" fill="none" stroke="#a67a3f" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+    <path d="M265 132C220 188 198 264 210 334" fill="none" stroke="#8d6a3c" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+    <path d="M325 151C379 204 401 280 387 344" fill="none" stroke="#8d6a3c" stroke-width="10" stroke-linecap="round" opacity="0.65"/>
+    <ellipse cx="220" cy="140" rx="32" ry="24" fill="#6e562d" opacity="0.18"/>
+  </g>
+  <text x="110" y="448" fill="#effff4" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Butter Fruit • Premium Avocado</text>
+</svg>
