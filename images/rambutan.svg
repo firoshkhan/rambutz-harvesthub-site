@@ -1,51 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Rambutan fruits illustration">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Real rambutan fruit image">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#1f4d2c"/>
-      <stop offset="100%" stop-color="#0e2b18"/>
+    <linearGradient id="overlay" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.35"/>
     </linearGradient>
-    <linearGradient id="fruit" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#ff5d7a"/>
-      <stop offset="100%" stop-color="#b31443"/>
-    </linearGradient>
-    <radialGradient id="shine" cx="35%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#fff4"/>
-      <stop offset="100%" stop-color="#fff0"/>
-    </radialGradient>
   </defs>
-  <rect width="800" height="520" rx="40" fill="url(#bg)"/>
-  <circle cx="165" cy="116" r="56" fill="#8adf5c" opacity="0.18"/>
-  <circle cx="650" cy="88" r="72" fill="#9ff28d" opacity="0.15"/>
-  <path d="M380 90C452 50 515 62 565 120" fill="none" stroke="#c8ff93" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
-  <path d="M395 95C445 55 505 72 526 127" fill="none" stroke="#8bd66b" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
-  <g transform="translate(160 120)">
-    <ellipse cx="240" cy="260" rx="170" ry="135" fill="url(#fruit)"/>
-    <ellipse cx="240" cy="260" rx="170" ry="135" fill="url(#shine)"/>
-    <g fill="#ffb7c5" opacity="0.95">
-      <circle cx="150" cy="110" r="28"/>
-      <circle cx="210" cy="70" r="30"/>
-      <circle cx="285" cy="95" r="29"/>
-      <circle cx="340" cy="150" r="28"/>
-      <circle cx="365" cy="230" r="28"/>
-      <circle cx="332" cy="310" r="29"/>
-      <circle cx="250" cy="350" r="28"/>
-      <circle cx="160" cy="325" r="28"/>
-      <circle cx="105" cy="245" r="29"/>
-      <circle cx="120" cy="175" r="28"/>
-    </g>
-    <g fill="#8ddc72">
-      <path d="M205 52C160 10 90 16 65 82C83 62 140 56 205 52Z"/>
-      <path d="M285 48C338 6 406 12 436 72C420 52 364 44 285 48Z"/>
-    </g>
-    <g fill="#fff0d8" opacity="0.85">
-      <path d="M185 205C205 176 232 155 265 150C237 182 210 212 185 205Z"/>
-      <path d="M220 270C251 244 288 230 326 232C291 263 250 287 220 270Z"/>
-    </g>
-  </g>
-  <g fill="#d7ff98" opacity="0.9">
-    <circle cx="610" cy="350" r="10"/>
-    <circle cx="646" cy="376" r="8"/>
-    <circle cx="668" cy="332" r="9"/>
-  </g>
-  <text x="104" y="458" fill="#effff4" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Rambutan • Fresh • Premium</text>
+  <rect width="800" height="520" rx="40" fill="url(#overlay)"/>
+  <image
+    href="https://upload.wikimedia.org/wikipedia/commons/a/ae/Rambutan_Fruit.jpg"
+    x="0"
+    y="0"
+    width="800"
+    height="520"
+    preserveAspectRatio="xMidYMid slice"
+  />
+  <rect width="800" height="520" rx="40" fill="rgba(5, 18, 10, 0.25)"/>
+  <text x="104" y="458" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Rambutan • Fresh • Premium</text>
 </svg>
